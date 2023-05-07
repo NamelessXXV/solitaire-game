@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 #include<vector>
-#include <ncurses.h>
+#include<ncursesw/ncurses.h>
 #include <locale.h>
 #include "gui.h"
 #include "initTable.h"

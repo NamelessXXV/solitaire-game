@@ -4,8 +4,7 @@
 #include<vector>
 #include<string>
 #include"card.h"
-#include<ncurses.h>
-#include <menu.h>
+#include<ncursesw/ncurses.h>
 #include<map>
 
 using namespace std;

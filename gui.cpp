@@ -3,7 +3,7 @@
 #include"gui.h"
 #include <vector>
 #include <string>
-#include <ncurses.h>
+#include<ncursesw/ncurses.h>
 
 using namespace std;
 
