@@ -1,0 +1,21 @@
+name: AUTO COMPILER ERROR TEST--- Make and execute main
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: make clean
+      run: make clean
+    - name: make main
+      run: make main
+    - name: run main
+      run: ./main
