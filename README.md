@@ -135,7 +135,7 @@ Program functions are stored separately in different files, including “checkIn
 ## Compilation and execution instruction
 Clone the repository
 ```
-git clone https://github.com/alfred1029/engg1340group69
+git clone https://github.com/NamelessXXV/solitaire-game
 ```
 The is no additional configuration required for make.  
 However, only **Linux/UNIX** compatability is guaranteed. **Running in Windows SHOULD BE AVOIDED.** 
